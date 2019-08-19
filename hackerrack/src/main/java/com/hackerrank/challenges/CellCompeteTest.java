@@ -1,4 +1,4 @@
-package com.hackerrack.challenges;
+package com.hackerrank.challenges;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;

@@ -1,4 +1,4 @@
-package com.hackerrack.challenges.digitalWallet;
+package com.hackerrank.challenges.digitalWallet;
 
 public class DigitalWalletTransaction {
 

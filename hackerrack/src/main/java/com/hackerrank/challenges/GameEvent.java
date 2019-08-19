@@ -1,4 +1,4 @@
-package com.hackerrack.challenges;
+package com.hackerrank.challenges;
 
 import java.io.BufferedReader;
 //import java.io.BufferedWriter;
