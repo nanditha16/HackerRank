@@ -1,16 +1,24 @@
 # HackerRank : https://www.hackerrank.com/domains/algorithms/
 # HackerRank : https://www.hackerrank.com/interview/interview-preparation-kit
-  Warmup
+  
+Basic <br>
+    - DateHandlerUtility          
+    - Java8StreamReadFile       
+    - ScanInput
+    - StringHandlerUtility    
+    - Test    
+  
+  Warmup <br>
     - A_Very_Big_Sum          
-    - MIn-Max_Sum        
-    - Staircase
-    - Birthday_Cake_Candles    
-    - Plus_Minus        
-    - Time_Conversion
-    - Compare_the_Triplets    
-    - Simple_Array_Sum
+    - Birthday_Cake_Candles       
+    - Compare_the_Triplets
     - Diagonal_Difference    
+    - MIn_Max_Sum        
+    - Plus_Minus
+    - Simple_Array_Sum    
     - Solve_Me_First
+    - Staircase    
+    - Time_Conversion
     
   Implementation  
     - Grading Students
@@ -21,7 +29,15 @@
     - Kangaroo
     
    Challenge  
-     - Test30min1
+     - Test30min1   
+    - AladdinAndCarpet    
+    - CellCompeteTest    
+    - CircularSubstringCompetition    
+    - DocumentManagementSystem<br>
+    - GameEvent<br>
+    - TestGCD<br>
+    - DigitalWallet
+   
  
   Array  
      - LeftRotation.java    
@@ -52,4 +68,8 @@
   Tree<br>
     - BinaryTreeTest.java
     - Node.java
+  
+
+  GSon Example  
+     
   
