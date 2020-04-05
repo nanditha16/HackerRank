@@ -1,6 +1,7 @@
 package com.hackerrank.string;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 
 public class MakingAnagrams {
@@ -18,17 +19,18 @@ public class MakingAnagrams {
 	 * 
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);
+		
+//		Scanner scanner = new Scanner(System.in);
+//
+//		String a = scanner.nextLine();
+//        String b = scanner.nextLine();
+//        
+//        int res = makeAnagram(a, b);
+//
+//        System.out.println(res);
+//        scanner.close();
 
-		String a = scanner.nextLine();
-        String b = scanner.nextLine();
-        
-        int res = makeAnagram(a, b);
-
-        System.out.println(res);
-        scanner.close();
-
+        System.out.println(isPalindromeUsingIntStream("nand"));
 	}
 
 
@@ -62,5 +64,11 @@ public class MakingAnagrams {
 			deleteCharCount += Math.abs(arr[i]); 
         } 
 		return deleteCharCount;
+	}
+	
+	public static boolean isPalindromeUsingIntStream(String text) {
+	    String temp  = text.replaceAll("\\s+", "").toLowerCase();
+	    return IntStream.range(0, temp.length() / 2)
+	      .noneMatch(i -> temp.charAt(i) != temp.charAt(temp.length() - i - 1));
 	}
 }
